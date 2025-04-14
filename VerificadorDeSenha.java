@@ -1,22 +1,24 @@
-// Este programa verifica uma senha pre definida e notifica o usuario se a senha esta correta ou nao.
+// Este programa permite ao usuário definir uma senha e depois verifica se ele a digita corretamente.
 import java.util.Scanner;
 
-public class Main {
+public class VerificadorDeSenha {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite a senha:");
-        int senha = sc.nextInt();
+        System.out.println("Defina a senha de acesso:");
+        int senhaCorreta = sc.nextInt();
 
-        while (senha != 2002); {
-            System.out.println("Senha invalida");
-            System.out.println("Digite a senha:");
-            senha = sc.nextInt();
+        System.out.println("Digite a senha para acessar:");
+        int tentativa = sc.nextInt();
 
+        while (tentativa != senhaCorreta) {
+            System.out.println("Senha Invalida");
+            System.out.println("Digite a senha novamente:");
+            tentativa = sc.nextInt();
         }
 
-        System.out.println("Acesso permitido");
+        System.out.println("Acesso Permitido");
 
         sc.close();
     }
