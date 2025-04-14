@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 # 🔐 Verificador de Senha em Java
 
 Programa simples e funcional criado para treinar estruturas repetitivas em Java.  
