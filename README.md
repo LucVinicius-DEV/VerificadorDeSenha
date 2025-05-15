@@ -1,54 +1,54 @@
-![Banner](./banner.png)
+![Banner](https://github.com/LucVinicius-DEV/VerificadorDeSenha/blob/main/banner.png)
 
 # 🔐 Verificador de Senha em Java
 
-Programa simples e funcional criado para treinar estruturas repetitivas em Java.  
-Permite ao usuário **definir uma senha** e, em seguida, testa repetições até que a senha correta seja informada. Um ótimo exemplo prático do uso da estrutura `while`.
+Repositório com um exercício simples e direto em Java que simula um sistema básico de verificação de senha. O programa exige que o usuário insira a senha correta para obter acesso.
 
 ---
+
+## 📚 Projeto disponível
+
+- [VERIFICADOR DE SENHA](./src) — Programa que solicita uma senha do usuário e só libera o acesso após a entrada correta.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- IntelliJ IDEA
+- Git & GitHub
+
+---
+
+# 🔍 Sobre o Projeto
+
+Este exercício é voltado para o uso de estruturas de repetição com validação de entrada, útil para simulações de login e controle de acesso.
 
 ## ✨ Funcionalidades
 
-- Definição dinâmica de senha;
-- Verificação repetida de tentativas até acerto;
-- Feedback em tempo real ao usuário;
-- Encerra com mensagem de sucesso ao informar a senha correta.
-
----
-
-## 🔁 Estrutura utilizada
-
-- `while` loop — controla a repetição das tentativas;
-- `Scanner` — captura as entradas do usuário via console.
-
----
-
-## 🖥️ Exemplo de uso
-
-Defina a senha de acesso: 1234 Digite a senha para acessar: 1111 Senha Invalida Digite a senha novamente: 4321 Senha Invalida Digite a senha novamente: 1234 Acesso Permitido
+- Solicitação de senha via terminal.
+- Validação da senha informada (a correta é `2002`).
+- Repetição do processo até que a senha correta seja inserida.
+- Exibição de mensagens apropriadas para sucesso ou falha.
 
 ---
 
 ## ▶️ Como executar
 
-1. Compile o código:
-
-javac Main.java
-
-2. Execute o programa:
-
-Java Main
-
-> Certifique-se de ter o Java instalado no seu ambiente.
+1. Clone o repositório ou abra em sua IDE Java.
+2. Acesse o diretório `/src` e abra o arquivo `Main.java`.
+3. Execute o programa e digite a senha no terminal.
+4. O acesso será concedido apenas se a senha for correta.
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Lucas Vinícius** durante sua jornada de estudos em Java, com acompanhamento técnico e motivacional da assistente virtual **Luna**.
+Desenvolvido por Lucas Vinícius com apoio da Luna, como parte do aprendizado sobre laços de repetição e autenticação básica em Java.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vinícius-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/)  
+[![GitHub](https://img.shields.io/badge/GitHub-LucVinicius--DEV-black?style=flat&logo=github)](https://github.com/LucVinicius-DEV)
 
 ---
 
-## ⭐ Curtiu o projeto?
-
-Deixe uma estrela aqui no repositório, e acompanhe a jornada de aprendizado no [LinkedIn](https://www.linkedin.com) e no GitHub!
+Se você gostou deste projeto, deixe um ⭐ para apoiar o repositório e acompanhe o progresso pelo [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e pelo [GitHub](https://github.com/LucVinicius-DEV)!
